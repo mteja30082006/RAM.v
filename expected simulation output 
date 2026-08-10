@@ -1,0 +1,35 @@
+RAM Simulation Output
+
+The testbench first writes data into four memory locations and then reads the stored data.
+
+Write Operations:
+
+Address = 000  Data = A5
+Address = 001  Data = 3C
+Address = 010  Data = 7E
+Address = 011  Data = 81
+
+After writing, the testbench performs read operations:
+
+Read Operations:
+
+Address = 000  Data_out = A5
+Address = 001  Data_out = 3C
+Address = 010  Data_out = 7E
+Address = 011  Data_out = 81
+
+Expected Result
+
+Operation| Address| Data
+Write| 000| A5
+Write| 001| 3C
+Write| 010| 7E
+Write| 011| 81
+Read| 000| A5
+Read| 001| 3C
+Read| 010| 7E
+Read| 011| 81
+
+Result
+
+The simulation successfully verifies both the write and read operations of the 8 × 8 RAM. Data written to each address is correctly retrieved during the read operation.
