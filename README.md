@@ -125,6 +125,5 @@ Read| 011| 81
 
 The 8 × 8 RAM was successfully designed using Verilog HDL. The testbench verifies both write and read operations, and the simulation confirms that the data written to memory can be correctly retrieved from the corresponding addresses.
 
-👩‍💻 Author
+Author:M Tejaswini 
 
-Digital Logic Design Project – RAM
